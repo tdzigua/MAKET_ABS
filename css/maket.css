@@ -1,0 +1,56 @@
+.wrapper {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.ending {
+    margin-top: 410px;
+}
+
+.center { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.no-smoking {
+    position: absolute;
+    margin-top: 65px;
+}
+
+.biohazard {
+    position: absolute;
+    margin-right: 200px;
+    
+}
+
+.biohazard:hover {
+    z-index: 2;
+}
+
+.people {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.people:hover {
+    z-index: 2;
+}
+
+.yin-and-yang {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.yin-and-yang:hover {
+    z-index: 2;
+}
